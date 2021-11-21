@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-	public float ballSpeed = 0.02f;
+	public float ballSpeed = 0.03f;
 	public EventSystemCustom eventSystem;
 
 	float xDir = 1;
@@ -12,8 +12,8 @@ public class BallController : MonoBehaviour
 
 	float upBorder = 4.5f;
 	float downBorder = -4.5f;
-	float rightBorder = 10.2f;
-	float leftBorder = -10.2f;
+	float rightBorder = 8.2f;
+	float leftBorder = -8.2f;
 
 	Vector3 moveVec;
 
